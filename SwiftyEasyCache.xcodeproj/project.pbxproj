@@ -15,6 +15,13 @@
 		4AE562DE228E9F9700EB7C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE562DC228E9F9700EB7C17 /* Main.storyboard */; };
 		4AE562E0228E9F9A00EB7C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE562DF228E9F9A00EB7C17 /* Assets.xcassets */; };
 		4AE562E3228E9F9A00EB7C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE562E1228E9F9A00EB7C17 /* LaunchScreen.storyboard */; };
+		4AE562EE228EA35C00EB7C17 /* DiscardableJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562E8228EA35C00EB7C17 /* DiscardableJSON.swift */; };
+		4AE562EF228EA35C00EB7C17 /* DiscardableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562E9228EA35C00EB7C17 /* DiscardableData.swift */; };
+		4AE562F0228EA35C00EB7C17 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562EA228EA35C00EB7C17 /* CacheManager.swift */; };
+		4AE562F1228EA35C00EB7C17 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562EB228EA35C00EB7C17 /* DownloadManager.swift */; };
+		4AE562F2228EA35C00EB7C17 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562EC228EA35C00EB7C17 /* UIImageViewExtension.swift */; };
+		4AE562F3228EA35D00EB7C17 /* DiscradableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562ED228EA35C00EB7C17 /* DiscradableImage.swift */; };
+		4AE562F5228EA38300EB7C17 /* SwiftyEasyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE562F4228EA38300EB7C17 /* SwiftyEasyCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +48,13 @@
 		4AE562DF228E9F9A00EB7C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE562E2228E9F9A00EB7C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE562E4228E9F9A00EB7C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE562E8228EA35C00EB7C17 /* DiscardableJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscardableJSON.swift; sourceTree = "<group>"; };
+		4AE562E9228EA35C00EB7C17 /* DiscardableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscardableData.swift; sourceTree = "<group>"; };
+		4AE562EA228EA35C00EB7C17 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		4AE562EB228EA35C00EB7C17 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		4AE562EC228EA35C00EB7C17 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		4AE562ED228EA35C00EB7C17 /* DiscradableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscradableImage.swift; sourceTree = "<group>"; };
+		4AE562F4228EA38300EB7C17 /* SwiftyEasyCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyEasyCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +106,15 @@
 		4AE562BA228E9F3D00EB7C17 /* SwiftyEasyCache */ = {
 			isa = PBXGroup;
 			children = (
+				4AE562EA228EA35C00EB7C17 /* CacheManager.swift */,
+				4AE562E9228EA35C00EB7C17 /* DiscardableData.swift */,
+				4AE562E8228EA35C00EB7C17 /* DiscardableJSON.swift */,
+				4AE562ED228EA35C00EB7C17 /* DiscradableImage.swift */,
+				4AE562EB228EA35C00EB7C17 /* DownloadManager.swift */,
+				4AE562EC228EA35C00EB7C17 /* UIImageViewExtension.swift */,
 				4AE562BB228E9F3D00EB7C17 /* SwiftyEasyCache.h */,
 				4AE562BC228E9F3D00EB7C17 /* Info.plist */,
+				4AE562F4228EA38300EB7C17 /* SwiftyEasyCache.swift */,
 			);
 			path = SwiftyEasyCache;
 			sourceTree = "<group>";
@@ -199,6 +220,7 @@
 				TargetAttributes = {
 					4AE562B7228E9F3D00EB7C17 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					4AE562C0228E9F3D00EB7C17 = {
 						CreatedOnToolsVersion = 10.0;
@@ -260,6 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE562F3228EA35D00EB7C17 /* DiscradableImage.swift in Sources */,
+				4AE562F2228EA35C00EB7C17 /* UIImageViewExtension.swift in Sources */,
+				4AE562F5228EA38300EB7C17 /* SwiftyEasyCache.swift in Sources */,
+				4AE562EF228EA35C00EB7C17 /* DiscardableData.swift in Sources */,
+				4AE562F0228EA35C00EB7C17 /* CacheManager.swift in Sources */,
+				4AE562EE228EA35C00EB7C17 /* DiscardableJSON.swift in Sources */,
+				4AE562F1228EA35C00EB7C17 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +464,7 @@
 		4AE562CD228E9F3D00EB7C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Javedmultani16.SwiftyEasyCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +491,7 @@
 		4AE562CE228E9F3D00EB7C17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +517,7 @@
 		4AE562D0228E9F3D00EB7C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftyEasyCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -502,6 +535,7 @@
 		4AE562D1228E9F3D00EB7C17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftyEasyCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
