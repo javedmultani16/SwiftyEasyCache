@@ -26,6 +26,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftyEasyCache'
 ```
+
+
+To use this library in your project manually you may:
+
+just drag SwiftyEasyCache directory to the project tree
+
 ## Usage
 To load web images:
 ```ruby
