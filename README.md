@@ -27,7 +27,7 @@ it, simply add the following line to your Podfile:
 pod 'SwiftyEasyCache'
 ```
 
-
+## Manully Installation
 To use this library in your project manually you may:
 
 just drag SwiftyEasyCache directory to the project tree
