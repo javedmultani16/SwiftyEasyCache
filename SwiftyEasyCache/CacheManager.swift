@@ -59,8 +59,6 @@ public class CacheManager {
             return
         }
         
-        let data = DiscardableData(data: any! as! Data)
-        dataCache.setObject(data, forKey: url as NSString)
         
     }
     
